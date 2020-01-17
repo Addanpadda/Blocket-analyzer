@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/python3.8
 import urllib3
 import html
 import re
@@ -152,7 +152,7 @@ def process():
             data[currentPage].append('')
 
 
-if __main__ == '__name__':
+if __name__ == '__main__':
     pre_process()
     process()
 
