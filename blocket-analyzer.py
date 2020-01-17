@@ -151,7 +151,9 @@ def process():
         else:
             data[currentPage].append('')
 
-pre_process()
-process()
 
-print(data)
+if __main__ == '__name__':
+    pre_process()
+    process()
+
+    print(data)
